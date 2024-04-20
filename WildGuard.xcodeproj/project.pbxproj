@@ -1,0 +1,413 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		516619782B63EEB900A6A4D6 /* WildGuardApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 516619772B63EEB900A6A4D6 /* WildGuardApp.swift */; };
+		5166197A2B63EEB900A6A4D6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 516619792B63EEB900A6A4D6 /* ContentView.swift */; };
+		5166197C2B63EEBA00A6A4D6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5166197B2B63EEBA00A6A4D6 /* Assets.xcassets */; };
+		5166197F2B63EEBA00A6A4D6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5166197E2B63EEBA00A6A4D6 /* Preview Assets.xcassets */; };
+		5166198E2B63EECA00A6A4D6 /* sea.json in Resources */ = {isa = PBXBuildFile; fileRef = 516619852B63EECA00A6A4D6 /* sea.json */; };
+		5166198F2B63EECA00A6A4D6 /* AnimalType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 516619862B63EECA00A6A4D6 /* AnimalType.swift */; };
+		516619902B63EECA00A6A4D6 /* CategoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 516619872B63EECA00A6A4D6 /* CategoryView.swift */; };
+		516619912B63EECA00A6A4D6 /* Bundle-Decodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 516619882B63EECA00A6A4D6 /* Bundle-Decodable.swift */; };
+		516619922B63EECA00A6A4D6 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 516619892B63EECA00A6A4D6 /* HomeView.swift */; };
+		516619932B63EECA00A6A4D6 /* sky.json in Resources */ = {isa = PBXBuildFile; fileRef = 5166198A2B63EECA00A6A4D6 /* sky.json */; };
+		516619942B63EECA00A6A4D6 /* earth.json in Resources */ = {isa = PBXBuildFile; fileRef = 5166198B2B63EECA00A6A4D6 /* earth.json */; };
+		516619952B63EECA00A6A4D6 /* Animal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5166198C2B63EECA00A6A4D6 /* Animal.swift */; };
+		516619962B63EECA00A6A4D6 /* AnimalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5166198D2B63EECA00A6A4D6 /* AnimalView.swift */; };
+		516619B72B6409DC00A6A4D6 /* DataController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 516619B62B6409DC00A6A4D6 /* DataController.swift */; };
+		516619B92B64327C00A6A4D6 /* CategoryStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 516619B82B64327C00A6A4D6 /* CategoryStack.swift */; };
+		51BF1B7E2B646AC000514ADC /* AnimalRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51BF1B7D2B646AC000514ADC /* AnimalRow.swift */; };
+		51C139622B656C050053A760 /* ZoomedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51C139612B656C050053A760 /* ZoomedView.swift */; };
+		51C139642B658D2D0053A760 /* Friendface.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 51C139632B658D2D0053A760 /* Friendface.mp4 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		516619742B63EEB900A6A4D6 /* WildGuard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WildGuard.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		516619772B63EEB900A6A4D6 /* WildGuardApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WildGuardApp.swift; sourceTree = "<group>"; };
+		516619792B63EEB900A6A4D6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		5166197B2B63EEBA00A6A4D6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5166197E2B63EEBA00A6A4D6 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		516619852B63EECA00A6A4D6 /* sea.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = sea.json; sourceTree = "<group>"; };
+		516619862B63EECA00A6A4D6 /* AnimalType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnimalType.swift; sourceTree = "<group>"; };
+		516619872B63EECA00A6A4D6 /* CategoryView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CategoryView.swift; sourceTree = "<group>"; };
+		516619882B63EECA00A6A4D6 /* Bundle-Decodable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Bundle-Decodable.swift"; sourceTree = "<group>"; };
+		516619892B63EECA00A6A4D6 /* HomeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		5166198A2B63EECA00A6A4D6 /* sky.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = sky.json; sourceTree = "<group>"; };
+		5166198B2B63EECA00A6A4D6 /* earth.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = earth.json; sourceTree = "<group>"; };
+		5166198C2B63EECA00A6A4D6 /* Animal.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Animal.swift; sourceTree = "<group>"; };
+		5166198D2B63EECA00A6A4D6 /* AnimalView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnimalView.swift; sourceTree = "<group>"; };
+		516619B62B6409DC00A6A4D6 /* DataController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataController.swift; sourceTree = "<group>"; };
+		516619B82B64327C00A6A4D6 /* CategoryStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryStack.swift; sourceTree = "<group>"; };
+		51BF1B7D2B646AC000514ADC /* AnimalRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalRow.swift; sourceTree = "<group>"; };
+		51C139612B656C050053A760 /* ZoomedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZoomedView.swift; sourceTree = "<group>"; };
+		51C139632B658D2D0053A760 /* Friendface.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = Friendface.mp4; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		516619712B63EEB900A6A4D6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5166196B2B63EEB900A6A4D6 = {
+			isa = PBXGroup;
+			children = (
+				516619762B63EEB900A6A4D6 /* WildGuard */,
+				516619752B63EEB900A6A4D6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		516619752B63EEB900A6A4D6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				516619742B63EEB900A6A4D6 /* WildGuard.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		516619762B63EEB900A6A4D6 /* WildGuard */ = {
+			isa = PBXGroup;
+			children = (
+				516619772B63EEB900A6A4D6 /* WildGuardApp.swift */,
+				51C139612B656C050053A760 /* ZoomedView.swift */,
+				516619792B63EEB900A6A4D6 /* ContentView.swift */,
+				516619892B63EECA00A6A4D6 /* HomeView.swift */,
+				516619B82B64327C00A6A4D6 /* CategoryStack.swift */,
+				516619872B63EECA00A6A4D6 /* CategoryView.swift */,
+				51BF1B7D2B646AC000514ADC /* AnimalRow.swift */,
+				5166198D2B63EECA00A6A4D6 /* AnimalView.swift */,
+				516619862B63EECA00A6A4D6 /* AnimalType.swift */,
+				5166198C2B63EECA00A6A4D6 /* Animal.swift */,
+				516619882B63EECA00A6A4D6 /* Bundle-Decodable.swift */,
+				516619B62B6409DC00A6A4D6 /* DataController.swift */,
+				51C139632B658D2D0053A760 /* Friendface.mp4 */,
+				5166198B2B63EECA00A6A4D6 /* earth.json */,
+				516619852B63EECA00A6A4D6 /* sea.json */,
+				5166198A2B63EECA00A6A4D6 /* sky.json */,
+				5166197B2B63EEBA00A6A4D6 /* Assets.xcassets */,
+				5166197D2B63EEBA00A6A4D6 /* Preview Content */,
+			);
+			path = WildGuard;
+			sourceTree = "<group>";
+		};
+		5166197D2B63EEBA00A6A4D6 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				5166197E2B63EEBA00A6A4D6 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		516619732B63EEB900A6A4D6 /* WildGuard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 516619822B63EEBA00A6A4D6 /* Build configuration list for PBXNativeTarget "WildGuard" */;
+			buildPhases = (
+				516619702B63EEB900A6A4D6 /* Sources */,
+				516619712B63EEB900A6A4D6 /* Frameworks */,
+				516619722B63EEB900A6A4D6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WildGuard;
+			productName = WildGuard;
+			productReference = 516619742B63EEB900A6A4D6 /* WildGuard.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5166196C2B63EEB900A6A4D6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					516619732B63EEB900A6A4D6 = {
+						CreatedOnToolsVersion = 15.2;
+					};
+				};
+			};
+			buildConfigurationList = 5166196F2B63EEB900A6A4D6 /* Build configuration list for PBXProject "WildGuard" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5166196B2B63EEB900A6A4D6;
+			productRefGroup = 516619752B63EEB900A6A4D6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				516619732B63EEB900A6A4D6 /* WildGuard */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		516619722B63EEB900A6A4D6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5166197F2B63EEBA00A6A4D6 /* Preview Assets.xcassets in Resources */,
+				5166197C2B63EEBA00A6A4D6 /* Assets.xcassets in Resources */,
+				5166198E2B63EECA00A6A4D6 /* sea.json in Resources */,
+				516619942B63EECA00A6A4D6 /* earth.json in Resources */,
+				51C139642B658D2D0053A760 /* Friendface.mp4 in Resources */,
+				516619932B63EECA00A6A4D6 /* sky.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		516619702B63EEB900A6A4D6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				51C139622B656C050053A760 /* ZoomedView.swift in Sources */,
+				516619962B63EECA00A6A4D6 /* AnimalView.swift in Sources */,
+				51BF1B7E2B646AC000514ADC /* AnimalRow.swift in Sources */,
+				516619B92B64327C00A6A4D6 /* CategoryStack.swift in Sources */,
+				5166197A2B63EEB900A6A4D6 /* ContentView.swift in Sources */,
+				516619782B63EEB900A6A4D6 /* WildGuardApp.swift in Sources */,
+				516619912B63EECA00A6A4D6 /* Bundle-Decodable.swift in Sources */,
+				516619922B63EECA00A6A4D6 /* HomeView.swift in Sources */,
+				516619952B63EECA00A6A4D6 /* Animal.swift in Sources */,
+				516619902B63EECA00A6A4D6 /* CategoryView.swift in Sources */,
+				516619B72B6409DC00A6A4D6 /* DataController.swift in Sources */,
+				5166198F2B63EECA00A6A4D6 /* AnimalType.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		516619802B63EEBA00A6A4D6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		516619812B63EEBA00A6A4D6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		516619832B63EEBA00A6A4D6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"WildGuard/Preview Content\"";
+				DEVELOPMENT_TEAM = H8ZGPE64NJ;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.includesystems.WildGuardFinal;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator xros xrsimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "2,7";
+			};
+			name = Debug;
+		};
+		516619842B63EEBA00A6A4D6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"WildGuard/Preview Content\"";
+				DEVELOPMENT_TEAM = H8ZGPE64NJ;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.includesystems.WildGuardFinal;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator xros xrsimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "2,7";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5166196F2B63EEB900A6A4D6 /* Build configuration list for PBXProject "WildGuard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				516619802B63EEBA00A6A4D6 /* Debug */,
+				516619812B63EEBA00A6A4D6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		516619822B63EEBA00A6A4D6 /* Build configuration list for PBXNativeTarget "WildGuard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				516619832B63EEBA00A6A4D6 /* Debug */,
+				516619842B63EEBA00A6A4D6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5166196C2B63EEB900A6A4D6 /* Project object */;
+}
